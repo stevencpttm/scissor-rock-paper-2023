@@ -54,9 +54,23 @@
         #bot {
             transform: rotateZ(180deg);
         }
+        h1 {
+            background-color: black;
+            color: #fff;
+            font-size: 1rem;
+            text-align: center;
+            margin: 0;
+            padding: 8px 0;
+            font-family: sans-serif;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
+    <h1>Scissor Rock Paper</h1>
     <div id="game">
         <div id="bot">
             <img src="images/paper-draw.png" v-if="userSelected == 'paper' && userSelected == botSelected">
